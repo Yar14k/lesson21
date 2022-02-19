@@ -1,0 +1,44 @@
+  *{
+      margin: 0;
+      padding: 0;
+  }
+body{
+     
+      background-image: (rgba(255, 255, 255, 0.5),url(./921926a5-0837-4c02-8de1-11fb247fb8bd.png));
+  }
+  .header{
+ 
+   width: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+     display: flex;
+     justify-content:left;
+     margin-left: 200px;
+     margin-right: 300px;
+     color: black;
+    }
+.list{
+    display: flex;
+    justify-content: space-between;
+}   
+ul li{
+    margin: 15px;
+    color: aliceblue;
+    list-style: none;
+
+}
+.link{
+    text-decoration: none;
+}
+.text-1{
+    width: 100%;     
+    background-image:url('./921926a5-0837-4c02-8de1-11fb247fb8bd.png');
+}
