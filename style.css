@@ -1,29 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&family=Dancing+Script&family=Lobster&family=Raleway:wght@100&display=swap');
   *{
       margin: 0;
       padding: 0;
   }
-body{
-     
-      background-image: (rgba(255, 255, 255, 0.5),url(./921926a5-0837-4c02-8de1-11fb247fb8bd.png));
-  }
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Raleway:wght@100&display=swap');
   .header{
- 
-   width: 100%;
+ width: 100%;
+    
+}
+body{
+    font-family: 'Bitter', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Raleway', sans-serif;
 }
 .container{
-    width: 100%;
-    max-width: 1200px;
+    width: 100%;   
+    height: 100vh;  
+    background-image: 
+  linear-gradient(to top, rgba(255,0,0,0.3), rgba(255, 230, 0, 0.3)),
+  url(./921926a5-0837-4c02-8de1-11fb247fb8bd.png);
+
 }
+
 .header-top{
     display: flex;
     justify-content: space-between;
+
 }
 .logo{
      display: flex;
      justify-content:left;
-     margin-left: 200px;
-     margin-right: 300px;
-     color: black;
+     margin: auto;
+     color: white;
+  
     }
 .list{
     display: flex;
@@ -37,8 +47,60 @@ ul li{
 }
 .link{
     text-decoration: none;
+    color:white;
 }
-.text-1{
-    width: 100%;     
-    background-image:url('./921926a5-0837-4c02-8de1-11fb247fb8bd.png');
+.link:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+h1{
+ font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Raleway', sans-serif;
+font-size: 50px;
+text-align: center;
+color: white;
+margin-top: 20px;
+}
+.header-part{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: 100px;
+   font-weight: bold;
+}
+.btn{
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-second{
+    width: 100%;
+    height: 50vh;
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+}
+.header-second-block{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+.text-second-block{
+    text-align: center;
+    margin-top: 50px;
+    
 }
